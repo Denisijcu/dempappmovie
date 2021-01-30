@@ -30,7 +30,7 @@ function showMovies(movies) {
         movieEl.classList.add('movie')
 
         movieEl.innerHTML = `
-           <a href="https://cuevana2.io/"> <img src="${IMG_PATH + poster_path}" alt="${title}"> </a>
+            <img src="${IMG_PATH + poster_path}" alt="${title}"> 
             <div class="movie-info">
           <h3>${title}</h3>
           <span class="${getClassByRate(vote_average)}">${vote_average}</span>
